@@ -6,6 +6,7 @@ Here is the link to the original [Telco Customer Churn Dataset](https://www.kagg
 The first step in this project was to understand the data and perform feature engineering. We also had to add a new column 'tenure' that would calculate the tenure of the customer with the company considering the date on which this project was run, as the base date.
 
 Next, we created Data Quality Reports for continuous and categorical features, which looked like below:-
+
 ![image](https://github.com/sagardevesh/Telco-Customer-Churn/assets/25725480/d768bb2e-18e7-4aee-ac4c-7d2ae41ddd9d)
 Continuous features report
 
@@ -13,12 +14,15 @@ Continuous features report
 Categorical features report
 
 The next step was to perform feature visualisation for continuous features, which was a part of data understanding. For eg, the below chart shows the count of customers versus their monthly charges:-
+
 ![image](https://github.com/sagardevesh/Telco-Customer-Churn/assets/25725480/93bcba42-2415-4a75-bb84-18cd5d925d70)
 
 Further, we performed feature visualisation for categorical features. For eg, below is the chart for the male and the female ratio in the Telco customers:-
+
 ![image](https://github.com/sagardevesh/Telco-Customer-Churn/assets/25725480/efba58a7-24ca-497c-90e8-44b51bf3c9aa)
 
 Another categorical feature visualation chart is below, portraying the number of customers using the phone service of Telco:-
+
 ![image](https://github.com/sagardevesh/Telco-Customer-Churn/assets/25725480/50a474ee-25e7-4934-a521-356ac95cface)
 
 The next task was to address data quality issue in the dataset and do some preprocessing. For eg, checking for missing values, converting 'Date' column into datetime format and dropping any features that may be unnecessary or irrelevant in predicting customer churn. 
